@@ -3,8 +3,9 @@
 
 [integration.mqtt.auth.generic]
 servers=["tcp://mosquitto:1883"]
-username=""
-password=""
+#servers=["tcp://$MQTT_BROKER_HOST:1883"]
+#username="dennis"
+#password="368472"
 
 [integration.mqtt]
 event_topic_template="eu868/gateway/{{ .GatewayID }}/event/{{ .EventType }}"

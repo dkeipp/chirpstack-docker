@@ -2,6 +2,7 @@
 # configuration example and documentation.
 
 [integration.mqtt.auth.generic]
-servers=["tcp://mosquitto:1883"]
-username=""
-password=""
+#servers=["tcp://mosquitto:1883"]
+servers=["tcp://192.168.0.5:1883"]
+username="dennis"
+password="368472"
